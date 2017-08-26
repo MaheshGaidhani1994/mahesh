@@ -13,7 +13,7 @@ public class SampleController {
 	@Autowired
 	private CityService cityService;
 
-	@GetMapping("/")//
+	@GetMapping("/")//hi
 	@ResponseBody
 	@Transactional(readOnly = true)
 	public String helloWorld() {
